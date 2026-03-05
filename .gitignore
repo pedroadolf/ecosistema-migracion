@@ -30,3 +30,4 @@ yarn-error.log*
 
 # Agent copy (legacy/backup)
 .agent copy/
+venv/
