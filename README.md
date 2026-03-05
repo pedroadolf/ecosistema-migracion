@@ -1,27 +1,14 @@
-# 🚀 Ecosistema Antigravity — Plantilla de Migración
+# 🚀 Antigravity Ecosystem Template v1.0.0
 
-Plantilla de migración para el ecosistema Antigravity. Contiene reglas globales, skills source, knowledge base y guías de proyecto.
-
-## 📂 Estructura
-
-```
-├── Global_Rules/
-│   ├── 1_Estandares_Core/     # Reglas globales de desarrollo
-│   ├── 2_Plantillas_Proyectos/ # Templates para nuevos proyectos
-│   ├── 3_Skills_Source/        # Blueprints de skills
-│   └── 4_Archivados_Legacy/    # Archivos legacy
-├── docs/
-│   └── architecture/           # Documentación de arquitectura
-├── knowledge/
-│   ├── frontend/               # Sistemas de diseño UI/UX
-│   └── marketing/              # Estrategias de marketing
-└── INSTRUCCIONES_MIGRACION.md  # Guía paso a paso
+## Crear Proyecto Nuevo (3s)
+```bash
+./create-project.sh mi-proyecto
+cd mi-proyecto && make run
 ```
 
-## 🛠 Uso
+## Secuencia Completa
+1. `create-project.sh nombre` → Clona + setup + git nuevo
+2. `make run` → Orquestador LangGraph + agentes
+3. `git push` → Tu repo independiente
 
-Consulta [`INSTRUCCIONES_MIGRACION.md`](./INSTRUCCIONES_MIGRACION.md) para replicar este ecosistema en cualquier nuevo proyecto.
-
-## 📜 Licencia
-
-Uso privado — PASH © 2026
+**¡100% SIN SOBREESCRIBIR LA PLANTILLA MAESTRA!**
