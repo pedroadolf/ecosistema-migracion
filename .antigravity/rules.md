@@ -26,3 +26,7 @@ python src/main.py
 - Siempre incremental: nunca borres código existente
 - Commits frecuentes con git commit -m "step X: descripción"
 - Usa conocimiento de knowledge/ por dominio (frontend, marketing)
+
+## 5. RECURSOS EXTERNOS
+- Siempre consulta knowledge/external-resources.md antes de crear skills
+- Importa workflows desde antigravity.codes/workflows según proyecto
